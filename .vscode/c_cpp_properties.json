@@ -1,0 +1,13 @@
+{
+    "configurations": [{
+        "name": "linux",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "includePath": [
+            "${workspaceFolder}/**",
+            "/usr/local/include/soem"
+        ],
+        "compilerPath": "/usr/bin/gcc"
+    }],
+    "version": 4
+}
