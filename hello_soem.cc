@@ -95,7 +95,10 @@ void init_soem(const std::string& ifname) {
 
       printf("\nFinished configuration successfully\n");
     }
+  } else {
+    printf("can't bind soem on %s\n", ifname.c_str());
   }
+
   ec_close();
 }
 
